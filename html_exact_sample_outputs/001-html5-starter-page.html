@@ -1,26 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Exact Sample Output - HTML5 Starter Page</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      background: #f5f7fb;
-      font-family: Arial, sans-serif;
-    }
-    img {
-      display: block;
-      width: min(1120px, calc(100vw - 28px));
-      height: auto;
-    }
-  </style>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Mobile Responsive Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>HTML5 Starter Page</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
+
 <body>
-  <img src="001-html5-starter-page.svg" alt="Exact sample output preview for HTML5 Starter Page">
+
+    <!-- Header Section -->
+    <header>
+        <h1>HTML5 Starter Page</h1>
+        <p>A basic browser-ready HTML5 webpage</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>
+                This page demonstrates a complete and valid HTML5 document structure.
+                It includes semantic tags, metadata, navigation, content sections,
+                and basic styling.
+            </p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About HTML5</h2>
+            <p>
+                HTML5 is the latest standard version of HyperText Markup Language
+                used to structure web pages and web applications.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: starter@example.com</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 HTML5 Starter Page. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
