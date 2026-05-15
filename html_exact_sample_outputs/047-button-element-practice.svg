@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700">
+  <style>
+    .bg { fill: #f5f7fb; }
+    .window { fill: #ffffff; stroke: #cad5e3; stroke-width: 2; }
+    .bar { fill: #e9eff7; }
+    .dot1 { fill: #e45656; } .dot2 { fill: #e7bb4f; } .dot3 { fill: #4fb878; }
+    .label { fill: #4a5d75; font: 600 20px Arial, sans-serif; }
+    .title { fill: #172033; font: 700 36px Arial, sans-serif; }
+    .topic { fill: #0f766e; font: 700 22px Arial, sans-serif; }
+    .body { fill: #243142; font: 24px Arial, sans-serif; }
+    .panel { fill: #f7fafc; stroke: #d8e1ec; stroke-width: 2; }
+    .foot { fill: #53677f; font: 600 19px Arial, sans-serif; }
+  </style>
+  <rect class="bg" width="1120" height="700"/>
+  <rect class="window" x="36" y="34" width="1048" height="632" rx="18"/>
+  <rect class="bar" x="36" y="34" width="1048" height="76" rx="18"/>
+  <circle class="dot1" cx="78" cy="72" r="10"/><circle class="dot2" cx="112" cy="72" r="10"/><circle class="dot3" cx="146" cy="72" r="10"/>
+  <text x="86" y="150" class="label">Exact Sample Output - Problem 047</text>
+  <text x="86" y="195" class="title">Button Element Practice</text>
+  <rect class="panel" x="74" y="222" width="972" height="330" rx="10"/>
+  <text x="86" y="226" class="body">Button Element Practice</text><text x="86" y="259" class="body">Semantic elements chosen for meaning</text><text x="86" y="292" class="body">Inline emphasis where needed</text><text x="86" y="325" class="body">Valid nesting in the visible content</text>
+  <text x="86" y="596" class="topic">Tags and elements</text>
+  <text x="86" y="628" class="foot">Expected browser-rendered result for the submitted HTML.</text>
+</svg>
